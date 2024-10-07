@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing - AI-Powered Book Writing Course</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <style>
+        .hero {
+            padding: 4rem 0;
+        }
+
+        .pricing-card {
+            height: 100%;
+            transition: transform 0.3s;
+        }
+
+        .pricing-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .most-popular {
+            border: 2px solid #007bff;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">The Narrative Nexus</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="course.html">Course Description</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container text-center">
+            <h1 class="display-4 mb-4">Choose Your Writing Journey</h1>
+            <p class="lead mb-5">Start with a 14-day free trial, then select the plan that best fits your authorial
+                ambitions.</p>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card pricing-card h-100">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center mb-4">Monthly Access</h5>
+                        <h2 class="card-text text-center mb-4">$79<small class="text-muted">/month</small></h2>
+                        <ul class="list-unstyled mb-4">
+                            <li class="mb-2"><i class="bi bi-check text-success me-2"></i>Full course access</li>
+                            <li class="mb-2"><i class="bi bi-check text-success me-2"></i>AI writing tools</li>
+                            <li class="mb-2"><i class="bi bi-check text-success me-2"></i>Community support</li>
+                            <li class="mb-2"><i class="bi bi-check text-success me-2"></i>Monthly live Q&A sessions</li>
+                        </ul>
+                        <a href="#" class="btn btn-outline-primary mt-auto">Start Free Trial</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card pricing-card h-100 most-popular">
+                    <div class="card-body d-flex flex-column">
+                        <div class="ribbon text-center bg-primary text-white py-1 mb-4">Most Popular</div>
+                        <h5 class="card-title text-center mb-4">Annual Access</h5>
+                        <h2 class="card-text text-center mb-4">$699<small class="text-muted">/year</small></h2>
+                        <p class="text-center text-success mb-4">Save 26% ($58.25/month)</p>
+                        <ul class="list-unstyled mb-4">
+                            <li class="mb-2"><i class="bi bi-check text-success me-2"></i>All Monthly Access features
+                            </li>
+                            <li class="mb-2"><i class="bi bi-check text-success me-2"></i>Advanced AI editing tools</li>
+                            <li class="mb-2"><i class="bi bi-check text-success me-2"></i>Quarterly writing workshops
+                            </li>
+                            <li class="mb-2"><i class="bi bi-check text-success me-2"></i>Personalized writing roadmap
+                            </li>
+                        </ul>
+                        <a href="#" class="btn btn-primary mt-auto">Start Free Trial</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card pricing-card h-100">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center mb-4">Lifetime Access</h5>
+                        <h2 class="card-text text-center mb-4">$1,299<small class="text-muted"> one-time</small></h2>
+                        <p class="text-center text-success mb-4">Best value for committed authors</p>
+                        <ul class="list-unstyled mb-4">
+                            <li class="mb-2"><i class="bi bi-check text-success me-2"></i>All Annual Access features
+                            </li>
+                            <li class="mb-2"><i class="bi bi-check text-success me-2"></i>Lifetime updates and new
+                                content</li>
+                            <li class="mb-2"><i class="bi bi-check text-success me-2"></i>Exclusive author mastermind
+                                group</li>
+                            <li class="mb-2"><i class="bi bi-check text-success me-2"></i>One-on-one coaching session
+                            </li>
+                        </ul>
+                        <a href="#" class="btn btn-outline-primary mt-auto">Start Free Trial</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="mt-5">
+            <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+            <div class="accordion" id="pricingFAQ">
+                <div class="accordion-item">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                            What's included in the 14-day free trial?
+                        </button>
+                    </h3>
+                    <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#pricingFAQ">
+                        <div class="accordion-body">
+                            Our 14-day free trial gives you full access to all features of the Monthly Access plan. You
+                            can explore the course content, use our AI writing tools, and participate in community
+                            discussions without any commitment.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq2">
+                            Can I switch plans after subscribing?
+                        </button>
+                    </h3>
+                    <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#pricingFAQ">
+                        <div class="accordion-body">
+                            Yes, you can upgrade or downgrade your plan at any time. If you upgrade, you'll have
+                            immediate access to the new features. If you downgrade, the change will take effect at the
+                            start of your next billing cycle.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq3">
+                            Is there a refund policy?
+                        </button>
+                    </h3>
+                    <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#pricingFAQ">
+                        <div class="accordion-body">
+                            We offer a 30-day money-back guarantee for all our plans. If you're not satisfied with your
+                            purchase, contact our support team within 30 days of your purchase for a full refund.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-light py-4 mt-5 text-primary">
+        <div class="container text-center">
+            <p>&copy; 2024 Grayman Concepts. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
